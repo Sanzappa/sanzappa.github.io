@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 2rem 0;
+}
+.perfil{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.resumo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.resumo span{
+    margin-bottom: 20px;
+}
