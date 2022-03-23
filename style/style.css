@@ -13,11 +13,39 @@ body{
     text-align: center;
     margin-bottom: 80px;
 }
-.resumo{
-    text-align: center;
+
+.page{
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
-.resumo span{
-    margin-bottom: 20px;
+.resumo{
+    width: 50vw;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.grid-i-1 {
+    border: 2px solid black;
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 10px;
+}
+.grid-i-2 { 
+    border: 2px solid black;
+    grid-area: 1 / 2 / 2 / 3; 
+    padding: 10px;
+}
+.grid-i-3 { 
+    border: 2px solid black;
+    grid-area: 2 / 1 / 3 / 2; 
+    padding: 10px;
+}
+.grid-i-4 { 
+    border: 2px solid black;
+    grid-area: 2 / 2 / 3 / 3;
+    padding: 10px
 }
