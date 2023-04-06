@@ -1,33 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="/style/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santiago Conti Zapparoli</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Santiago Conti Zapparoli</title>
+
 </head>
-<body>    
-<div class="page">
-    <div class="perfil">
-        <img src="/assets/sanzappinha.png" alt="" class="avatar">
-        <h1>Santiago Conti Zapparoli</h1>
-        <span>Brasileiro - 16 anos - Estudante do SENAI jaguariuna</span>
+
+<body>
+  <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="img/portFolioDev.gif">
+    <div class="container-fluid tm-brand-container-outer">
+      <div class="row">
+        <div class="col-12">
+          <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
+            <div class="tm-brand-container text-center">
+              <h1 class="tm-brand-name">Meu portfólio pessoal</h1>
+              <p class="tm-brand-description mb-0">Uma breve apresentação sobre mim</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="resumo">
-        <div class="grid-i-1">
-        <span>- Java(Aprendendo logica e fundamentos de programação orientada a objeto)</span>
+
+    <div class="tm-bg-white-transparent tm-welcome-container">
+      <div class="container-fluid">
+        <div class="row h-100">
+          <div class="col-md-7 tm-welcome-left-col">
+            <div class="tm-welcome-left">
+              <h2 class="tm-welcome-title">Bem vindo ao meu portfolio
+
+              </h2>
+              <p class="pb-0">
+                Bem-vindo ao meu portfólio pessoal,
+                aqui tenho algumas das coisas que aprendi durante meus anos de programação, coisas que utilizei para a
+                conclusão do meu curso técnico.</p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="tm-welcome-right">
+              <a href="https://github.com/Sanzappa">
+              <img src="https://avatars.githubusercontent.com/u/98469304?v=4" class="tm-welcome-icon" alt="">
+            </a>
+              <p class="mb-0">Meu nome é Santiago Conti Zapparoli, atualmente possuo 17 anos e estou no fim do meu curso técnico em desenvolvimento de sistemas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-        <div class="grid-i-2">
-        <span>- POO(Aprendendo sobre interpretar diagramas UML e seus fundamentos)</span>
+  </section>
+  <!-- End Welcome Main -->
+
+  <!-- Portfolio Main -->
+  <section id="tmPortfolio">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="tm-portfolio-item">
+            <div class="tm-portfolio-name text-white tm-bg-green">
+              Back-end
+            </div>
+            <div class="tm-portfolio-description">
+              <h3 class="tm-text-green">
+                Node.js e Java
+              </h3>
+              <p class="mb-0">
+                Eu aprendi a utilizar nos meus projetos o back-end feito em java ou node.js, também aprendi a usar o Prisma(ORM) para ajudar nos meus back-ends em node.
+              </p>
+            </div>
+          </div>
+
+          <div class="tm-portfolio-item">
+            <div class="tm-portfolio-name text-white tm-bg-orange">
+              Banco de dados
+            </div>
+            <div class="tm-portfolio-description">
+              <h3 class="tm-text-orange">
+                MySQL
+              </h3>
+              <p class="mb-0">
+                O único banco de dados que possuo experiencia atualmente é o MySQL, usufruo dele em todos os meus projetos.
+              </p>
+            </div>
+          </div>
+
+          <div class="tm-portfolio-item">
+            <div class="tm-portfolio-name text-white tm-bg-blue">
+              Front-end
+            </div>
+            <div class="tm-portfolio-description">
+              <h3 class="tm-text-blue">
+                HTML, CSS e JavaScript
+              </h3>
+              <p class="mb-0">
+                Possuo alguma experiência com estilização de páginas web, assim como em torná-las funcionais, requisitando as coisas do meu back-end.
+              </p>
+            </div>
+          </div>
+
+          <div class="tm-portfolio-item">
+            <div class="tm-portfolio-name text-white tm-bg-dark-gray">
+              Mobile
+            </div>
+            <div class="tm-portfolio-description">
+              <h3 class="tm-text-dark-gray">
+                React-Native
+              </h3>
+              <p class="mb-0">
+                Utilizo React-Native para todos os meus projetos em mobile, usufruindo dele com o expo, também tive algumas experiências com o React-Native puro em um projeto de realidade aumentada no qual fiz parte.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="grid-i-3">
-        <span>- HTML(Desenvolvimento de paginas web)</span>
-    </div>
-    <div class="grid-i-4">
-        <span>- CSS(Aprendendo estilização de paginas web)</span>
-    </div>
-    </div>
-</div>
+  </section>
+  <!-- End portfolio Main -->
+
+  <!-- row -->
+  <div class="row">
+    <footer class="col-12 foot">
+      <p class="text-center tm-copyright-text">Copyright 2023 Santiago Conti Zapparoli(Portfolio)</p>
+    </footer>
+  </div>
+  </div>
+  <!-- container -->
+  </div>
+  <!-- section -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script>
+    function detectMsBrowser() {
+      using_ms_browser =
+        navigator.appName == "Microsoft Internet Explorer" ||
+        (navigator.appName == "Netscape" &&
+          navigator.appVersion.indexOf("Edge") > -1) ||
+        (navigator.appName == "Netscape" &&
+          navigator.appVersion.indexOf("Trident") > -1);
+
+      if (using_ms_browser == true) {
+        alert(
+          "Please use Chrome or Firefox for the best browsing experience!"
+        );
+      }
+    }
+    function setBrandMarginTop() {
+      var bottomContainerHeight = $(".tm-welcome-container").height();
+
+      $(".tm-brand-container-outer").css({
+        "margin-top": -bottomContainerHeight + "px"
+      });
+    }
+
+    $(function () {
+      setBrandMarginTop();
+      detectMsBrowser();
+
+      // Handle window resize event
+      $(window).resize(function () {
+        setBrandMarginTop();
+      });
+    });
+  </script>
 </body>
+
 </html>
